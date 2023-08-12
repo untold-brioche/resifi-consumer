@@ -2,7 +2,8 @@ import m from "mithril"
 
 const ReturnSchema: any = {
 	addr: "",
-	data: {},
+	data: undefined,
+	charity_data: undefined,
 	request: async () => {
 		ReturnSchema.data = await m.request({
 			url: process.env.RESIFI_API + "/return", method: "POST", body: {
@@ -11,7 +12,9 @@ const ReturnSchema: any = {
 				item_id: 2,
 			}
 		})
-		console.log(ReturnSchema.data)
+		ReturnSchema.charity_data = await m.request({
+			url: process.env.RESIFI_API + "/charity/" + ReturnSchema.data.inventory_item.charity_id, method: "GET"
+		})
 	}
 }
 
