@@ -18,7 +18,8 @@ const ReturnView: Component = {
 			}),
 			m("br"),
 			m("button", {
-				onclick: () => {
+				onclick: async () => {
+					await ReturnSchema.request()
 					m.route.set("/refunded")
 				}
 			}, "Initiate refund"),

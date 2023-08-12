@@ -30,7 +30,7 @@ img {
 }
 
 .form-textbox {
-	width: 20em;
+	width: 25em;
 }
 
 .form-textbox, button {
@@ -65,9 +65,11 @@ button {
 	text-align: left;
 	margin-left: 1em;
 }
+.shipping-label b {
+	display: inline;
+}
 
 .qr {
 	max-height: 100px;
 	display: block;
-	content-align: right;
 }
