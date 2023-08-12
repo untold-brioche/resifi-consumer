@@ -65,8 +65,9 @@ button {
 	text-align: left;
 	margin-left: 1em;
 }
-.shipping-label b {
+.shipping-label b, em {
 	display: inline;
+	margin-left: .5em;
 }
 
 .qr {
