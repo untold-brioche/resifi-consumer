@@ -1,0 +1,29 @@
+{
+  "name": "resifi-consumer-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.mjs release",
+    "serve": "node build.mjs serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/untold-brioche/resifi-consumer.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/untold-brioche/resifi-consumer/issues"
+  },
+  "homepage": "https://github.com/untold-brioche/resifi-consumer#readme",
+  "dependencies": {
+    "@craftamap/esbuild-plugin-html": "^0.6.1",
+    "esbuild": "^0.19.1",
+    "mithril": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/mithril": "^2.0.13"
+  }
+}
