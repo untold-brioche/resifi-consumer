@@ -53,3 +53,21 @@ button {
 	border: 2px solid #444444;
 }
 
+.shipping-label {
+	border: 1px solid black;
+	background: white;
+	font: 1em monospace;
+	width: 75%;
+	margin: auto;
+}
+
+.shipping-label p {
+	text-align: left;
+	margin-left: 1em;
+}
+
+.qr {
+	max-height: 100px;
+	display: block;
+	content-align: right;
+}
