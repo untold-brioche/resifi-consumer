@@ -1,0 +1,19 @@
+body {
+	font: normal 18px/1.5 BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	margin: 0;
+	background: #fcfbff;
+}
+
+.layout {
+	margin: 0 auto;
+	width: 85vmin;
+	text-align: center;
+}
+
+.name-header {
+	font-size: 300%;
+}
+
+p {
+	font-size: 120%;
+}
